@@ -9,7 +9,7 @@ The Billion Dollar Question: Is Vanguard's New UI Worth It?
 - [Contributors](#contributors)
 - [Datasets](#datasets)
 - [About Vanguard](#about-vanguard)
-- [Business question:](#business-question)
+- [Business question](#business-question)
 - [Hypotheses](#hypotheses)
 - [Data Cleaning \& Obstacles](#data-cleaning--obstacles)
 - [Methodology](#methodology)
@@ -52,7 +52,7 @@ From df_final_web_data_pt_1.txt & df_final_webdata_pt_2.txt
 ## About Vanguard
 Vanguard is one of the world's largest investment management companies, founded in 1975 and serving over 50 million clients worldwide. As part of their ongoing commitment to improving the client experience, Vanguard conducted an A/B test to evaluate whether a new user interface design leads to higher process completion rates among their clients. 
 
-## Business question:
+## Business question
 Does the new Vanguard UI design drive higher process completion rates, and if so, does the improvement justify the investment?
 
 ## Hypotheses 
@@ -186,24 +186,38 @@ https://docs.google.com/presentation/d/1MtAjua1jVTg8QEi5DEEQXuwsui0Agx2kUaQ2pm36
 ## Installation instruction
 
 1. clone the repository:
-```git clone https://github.com/BMAS30/2nd-project```
+```
+git clone https://github.com/BMAS30/2nd-project
+```
 
 2. Install UV
 if you're a MacOS/Linux user:
-```curl -LsSf https://astral.sh/uv/install.sh | sh```
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
     if you're a Windows user open an Anaconda Powershell Prompt and enter:
-```powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"```
+```
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
 3. Create an environment:
-``` uv venv```
+``` 
+uv venv
+```
 
 4. Activate the environment:
 if you're a MacOS/Linux user type:
-```source ./venv/bin/activate```
+```
+source ./venv/bin/activate
+```
 
     if you're a Windows user enter in Anaconda Powershell Prompt:
-```.\.venv\Scripts\activate```
+```
+.\.venv\Scripts\activate
+```
 
 5. Install dependencies:
-```uv pip install -r requirements.txt```
+```
+uv pip install -r requirements.txt
+```
